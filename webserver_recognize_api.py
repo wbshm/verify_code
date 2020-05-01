@@ -68,7 +68,7 @@ def up_image():
         value = R.rec_image(img)
         e = time.time()
         print("识别结果: {}".format(value))
-        # 保存图片
+        # 保存图片太烦人个
         print("保存图片： {}{}_{}.{}".format(api_image_dir, value, timec, image_suffix))
         file_name = "{}_{}.{}".format(value, timec, image_suffix)
         file_path = os.path.join(api_image_dir + file_name)
